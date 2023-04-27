@@ -7,6 +7,22 @@ body{
     background-color: #282120;
 }
 
+section{
+    padding: 15px;
+}
+
+.cream{
+    background-color: #F8EFE4;
+}
+
+.jetBlack{
+    background-color:#282120 ;
+    color: #F8EFE4;
+}
+
+
+/*Header/Nav*/
+
 header{
     background-image: url(images/indian-food-cuisine-dishes-copy-space-tikka-masala-dal-paneer-samosa-chapati-chutney-spices-gray-background-assortment-meal-150703869.jpg);
     background-repeat: no-repeat;
@@ -65,22 +81,71 @@ nav i:active{
 }
 
 #title h1{
-    font-size: 5rem;
+    font-family: 'Merienda', cursive;
+    font-size: 4rem;
     color: #FAD02C;
     text-shadow: 2px 2px 30px #282120;
 }
 
 #title p {
+    font-family: 'Dancing Script', cursive;
     margin-bottom: -10px;
     color: #282120;
+    font-size: 2rem;
+}
+
+/* Section 1*/
+
+#section-one h3{
+    font-size: 2rem;
+    font-family: 'Merienda', cursive;
+}
+
+#section-one span{
+    font-family: 'Dancing Script', cursive;
+}
+
+#section-one p{
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    margin: 12px auto;
+}
+
+
+/* Section 2*/
+
+#section-two h2{
+    font-family: 'Merienda', cursive;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+
+#section-two h3{
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
     font-size: 1.5rem;
 }
 
-.cream{
-    background-color: #F8EFE4;
+#section-two img{
+    width: 300px;
+    height: 250px;
+    clip-path: ellipse();
 }
 
-.jetBlack{
-    background-color:#282120 ;
-    color: #F8EFE4;
+/* Section 3*/
+
+#section-three img{
+    width: 300px;
+    height: 250px;
+    clip-path: ellipse();
+    margin-top: 30px;
 }
+
+/* Section 4*/
+
+
+/* Section 5*/
+
+
+/*Footer*/
