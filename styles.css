@@ -25,6 +25,7 @@ nav{
     display: flex;
     justify-content: center ;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 nav img{
