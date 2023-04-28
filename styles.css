@@ -8,7 +8,7 @@ body{
 }
 
 section{
-    padding: 15px;
+    padding: 25px;
 }
 
 .cream{
@@ -23,12 +23,22 @@ section{
 
 /*Header/Nav*/
 
-header{
-    background-image: url(images/indian-food-cuisine-dishes-copy-space-tikka-masala-dal-paneer-samosa-chapati-chutney-spices-gray-background-assortment-meal-150703869.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
+
+header button{
+    background-color: #28212000;
+    border: none;
+    color: #FAD02C;
+    font-size: 3rem;
+}
+
+header button:hover,
+header button:active{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#close-menu-btn{
+    display: none;
 }
 
 nav{
@@ -45,26 +55,20 @@ nav{
 }
 
 nav img{
-    width: 100px;
+    width: 85px;
 }
 
-nav i{
-    font-size: 4rem;
-}
 
-nav i:hover,
-nav i:active{
-    transform: scale(1.1);
-    cursor: pointer;
-    color: #F8EFE4;
-}
+
 
 #navbar-menu{
     display: flex; 
     justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     font-size: 2rem;
     padding: 10px;
+    height: 85vh;
 }
 
 #navbar-menu {
@@ -76,7 +80,12 @@ nav i:active{
 }
 
 #title{
-    padding-top: 110px;
+    background-image: url(images/indian-food-cuisine-dishes-copy-space-tikka-masala-dal-paneer-samosa-chapati-chutney-spices-gray-background-assortment-meal-150703869.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding-top: 300px;
 
 }
 
@@ -84,7 +93,7 @@ nav i:active{
     font-family: 'Merienda', cursive;
     font-size: 4rem;
     color: #FAD02C;
-    text-shadow: 2px 2px 30px #282120;
+    text-shadow: 2px 2px 30px #070707;
 }
 
 #title p {
@@ -92,6 +101,10 @@ nav i:active{
     margin-bottom: -10px;
     color: #282120;
     font-size: 2rem;
+}
+
+#title a{
+    border: 1px solid black;
 }
 
 /* Section 1*/
@@ -134,6 +147,16 @@ nav i:active{
 }
 
 /* Section 3*/
+#section-three h2{
+    font-family: 'Merienda', cursive;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#section-three h3{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
 
 #section-three img{
     width: 300px;
@@ -144,8 +167,40 @@ nav i:active{
 
 /* Section 4*/
 
+#section-four img{
+    width: 120px;
+}
 
 /* Section 5*/
 
+#section-five {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-five button{
+    width: 200px;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 5px auto;
+}
 
 /*Footer*/
+
+footer{
+    text-align:left;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 2.5rem;
+}
+
+footer h3{
+    font-size: 1.5rem;
+}
+
+#footer-links{
+    display: flex;
+    flex-direction: column;
+}
