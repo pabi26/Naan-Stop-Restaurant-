@@ -1,5 +1,5 @@
 body{
-    font-family: 'Castoro Titling', cursive;
+    font-family: 'Cinzel', serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,15 +10,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: right;
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: black;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h2{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 main{
