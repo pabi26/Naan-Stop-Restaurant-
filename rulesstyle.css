@@ -1,0 +1,42 @@
+body{
+    font-family: 'Castoro Titling', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 5px;
+    text-align: center;
+    background-image: url(images/clear-glass-chess-piece.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 0.8rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#rules{
+    text-align: right;
+    
+}
+
+#logic{
+    text-align: left;
+    color: red;
+}
+
+#numbers{
+    margin-right: 5px;
+    color: red;
+}
