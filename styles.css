@@ -210,6 +210,37 @@ footer h3{
 }
 
 
+#menu-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 5px;
+}
+
+#menu-body h1{
+    font-size: 2rem;
+}
+
+#menu-body h2{
+    font-size: 0.75rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rules{
+    text-align: right;
+}
+
+#logic{
+    text-align: left;
+    color: red;
+}
+
 
 
 
