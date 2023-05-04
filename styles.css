@@ -242,5 +242,21 @@ main{
 }
 
 
+/* contact us*/
+#contact-us{
+    font-size: 2.5rem;
+}
+
+#contact-div{
+    border: 1px black solid;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
 
 
